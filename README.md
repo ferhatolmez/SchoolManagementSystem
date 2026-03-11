@@ -22,14 +22,11 @@
 
 - [Proje Hakkında](#-proje-hakkında)
 - [Özellikler](#-özellikler)
-- [Ekran Görüntüleri](#-ekran-görüntüleri)
 - [Teknoloji Yığını](#-teknoloji-yığını)
 - [Veritabanı Şeması](#-veritabanı-şeması)
 - [Gereksinimler ve Kurulum](#-gereksinimler-ve-kurulum)
 - [Kullanım](#-kullanım)
 - [Proje Yapısı](#-proje-yapısı)
-- [Katkıda Bulunma](#-katkıda-bulunma)
-- [Lisans](#-lisans)
 - [İletişim](#-iletişim)
 
 ---
@@ -85,22 +82,6 @@ Geleneksel kağıt tabanlı veya dağıtık dijital süreçlerin yarattığı ve
   - Toplam ders sayısı
   - Toplam öğretmen sayısı
   - Toplam kayıt sayısı
-
----
-
-## 📸 Ekran Görüntüleri
-
-> 📌 *Ekran görüntülerini `docs/screenshots/` klasörüne ekleyerek aşağıdaki yorum satırlarını aktif hale getirebilirsiniz.*
-
-<!--
-| Ana Menü | Kontrol Paneli |
-|:---:|:---:|
-| ![Ana Menü](docs/screenshots/main.png) | ![Dashboard](docs/screenshots/dashboard.png) |
-
-| Öğrenci Yönetimi | Öğretmen Yönetimi |
-|:---:|:---:|
-| ![Öğrenci](docs/screenshots/ogrenci.png) | ![Öğretmen](docs/screenshots/ogretmen.png) |
--->
 
 ---
 
@@ -307,88 +288,9 @@ SchoolManagementSystem/
 
 ---
 
-## 🤝 Katkıda Bulunma
-
-Katkılarınızı bekliyoruz! Bu projeye katkıda bulunmak için aşağıdaki adımları izleyin:
-
-### Katkı Süreci
-
-**1. Fork & Clone**
-```bash
-# Repoyu fork edin (GitHub arayüzünden)
-git clone https://github.com/KULLANICI_ADINIZ/SchoolManagementSystem.git
-cd SchoolManagementSystem
-```
-
-**2. Feature Branch Oluşturun**
-```bash
-# Her yeni özellik veya düzeltme için ayrı bir dal açın
-git checkout -b feature/ogrenci-arama-filtresi
-# veya
-git checkout -b fix/baglanti-dizesi-yapisi
-```
-
-**3. Değişikliklerinizi Yapın ve Commit Edin**
-```bash
-git add .
-git commit -m "feat: öğrenci listesine ada göre arama filtresi eklendi"
-```
-
-> **Commit mesajı formatı:** `<tip>: <kısa açıklama>`
-> Tipler: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`
-
-**4. Push ve Pull Request**
-```bash
-git push origin feature/ogrenci-arama-filtresi
-```
-GitHub üzerinden `master` branch'ine Pull Request açın.
-
-### ✅ Katkı Kuralları
-
-- Her modül için mevcut CRUD yapısına uygun kod yazın
-- SQL sorgularında mutlaka **parametre kullanımı** (`AddWithValue`) tercih edin — SQL injection'a karşı
-- Türkçe değişken ve form adlandırma geleneğine uyun
-- Büyük değişiklikler için önce bir **Issue** açarak tartışın
-- PR açıklamasında yaptığınız değişikliği net biçimde belirtin
-
-### 🐛 Hata Bildirimi
-
-Bir hata bulduysanız [Issues](https://github.com/ferhatolmez/SchoolManagementSystem/issues) sayfasından yeni bir issue açın ve şu bilgileri ekleyin:
-
-- İşletim sistemi ve .NET Framework sürümü
-- SQL Server sürümü
-- Hatanın adımlar ile tekrar üretilmesi
-- Hata mesajı veya ekran görüntüsü
-
----
-
 ## 📄 Lisans
 
 Bu proje **MIT Lisansı** ile lisanslanmıştır.
-
-```
-MIT License
-
-Copyright (c) 2024 ferhatolmez
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
 
 ---
 
